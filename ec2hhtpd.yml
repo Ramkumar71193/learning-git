@@ -20,5 +20,16 @@
          assign_public_ip: yes
       register: ec2
 
-    - name: install httpd
-      yum: name=httpd update_cache=yes state=latest
+- hosts: localhost
+      sudo: yes
+
+- name: install httpd
+  yum: name=httpd update_cache=yes state=latest
+
+- name: run echo command
+  command: /bin/echo AP Software Solutions
+
+- name: Ensure httpd is started
+  service:
+    name: httpd
+    state: started
