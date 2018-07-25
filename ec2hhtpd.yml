@@ -21,7 +21,7 @@
       register: ec2
 
 - hosts: localhost
-      sudo: yes
+  sudo: yes
 
 - name: install httpd
   yum: name=httpd update_cache=yes state=latest
