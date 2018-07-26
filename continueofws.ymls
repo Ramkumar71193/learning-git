@@ -1,0 +1,25 @@
+---
+- hosts: localhost
+  become: yes
+  #installing basic webserver on running instance
+  vars:
+    instance_type: t2.micro
+    instance_ids: i-00c35e4ed5fb69731
+    region: us-east-2
+  tasks:
+    - name: details
+    ec2:
+       instance_type: "{{ instance_type }}"
+       instance_ids: "{{ instance_ids }}"
+       region: "{{ region }}"
+    - name: install httpd
+      yum:
+        name=httpd
+        update_cache=yes
+        state=latest
+    - name: Deploy the static website
+      copy: src=/home/ram/learning-git/index.html dest=/var/www/html/index.html
+    - name: Ensure httpd is started
+      service:
+        name: httpd
+        state: started
