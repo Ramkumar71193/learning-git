@@ -8,7 +8,7 @@
         update_cache=yes
         state=latest
     - name: Deploy the static website
-      copy: src=/home/ram/learning-git dest=/var/www/html/index.html
+      copy: src=/home/ram/learning-git/index.html dest=/var/www/html/index.html
     - name: Ensure httpd is started
       service:
         name: httpd
