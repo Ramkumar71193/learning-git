@@ -25,7 +25,10 @@
   become: yes
 
 - name: install httpd
-  yum: name=httpd update_cache=yes state=latest
+  yum:
+    name=httpd
+    update_cache=yes
+    state=latest
 
 - name: Deploy the static website
   copy: src=/home/ram/learning-git dest=/var/www/html/index.html
