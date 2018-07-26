@@ -26,7 +26,10 @@
   become_method: sudo
 
 - name: install httpd
-  yum: name=httpd update_cache=yes state=latest
+  yum:
+    name=httpd
+    update_cache=yes
+    state=latest
 
 - name: run echo command
   command: /bin/echo AP Software Solutions
