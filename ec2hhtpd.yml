@@ -7,6 +7,7 @@
     security_group: default
     image: ami-03291866
     region: us-east-2
+
   tasks:
     - name: Launch instance
       ec2:
@@ -20,21 +21,22 @@
          assign_public_ip: yes
       register: ec2
 
-- hosts: localhost
-  become: yes
-  become_user: root
-  become_method: sudo
+  - name: Install webserver
+    hosts: launched
+    remote-user: ec2-user
+    become: true
+    become_method: sudo
 
-- name: install httpd
-  yum:
-    name=httpd
-    update_cache=yes
-    state=latest
+  - name: install httpd
+    yum:
+      name=httpd
+      update_cache=yes
+      state=latest
 
-- name: run echo command
-  command: /bin/echo AP Software Solutions
+  - name: run echo command
+    command: /bin/echo AP Software Solutions
 
-- name: Ensure httpd is started
-  service:
-    name: httpd
-    state: started
+  - name: Ensure httpd is started
+    service:
+      name: httpd
+      state: started
