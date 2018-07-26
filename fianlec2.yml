@@ -20,21 +20,3 @@
          vpc_subnet_id: subnet-0e4f7f18e7296ffa3
          assign_public_ip: yes
       register: ec2
-
-  - name: Install webserver
-    hosts: launched
-    remote-user: ec2-user
-    become: yes
-    become_method: sudo
-
-  - name: install httpd
-    yum: name=httpd state=latest
-
-  - name: Deploy the static website
-    copy: src=/home/ram/learning-git dest=/var/www/html/index.html
-
-
-  - name: Ensure httpd is started
-    service:
-      name: httpd
-      state: started
