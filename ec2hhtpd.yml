@@ -24,17 +24,15 @@
   - name: Install webserver
     hosts: launched
     remote-user: ec2-user
-    become: true
+    become: yes
     become_method: sudo
 
   - name: install httpd
-    yum:
-      name=httpd
-      update_cache=yes
-      state=latest
+    yum: name=httpd state=latest
 
-  - name: run echo command
-    command: /bin/echo AP Software Solutions
+  - name: Deploy the static website
+    copy: src=/home/ram/learning-git dest=/var/www/html/index.html
+
 
   - name: Ensure httpd is started
     service:
