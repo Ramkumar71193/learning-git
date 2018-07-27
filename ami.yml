@@ -1,4 +1,6 @@
-- ec2_ami:
+---
+- name: creating AMI
+  ec2_ami:
     instance_id: i-054fcfa2e530a558a
     wait: yes
     name: newtest
