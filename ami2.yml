@@ -5,9 +5,9 @@
     region: us-east-2
 
   tasks:
-- ec2_ami:
-    instance_id: "{{ instance_id }}"
-    region: "{{ region }}"
-    wait: yes
-    name: "{{ ami }}"
-    state: present
+    - ec2_ami:
+        instance_id: "{{ instance_id }}"
+        region: "{{ region }}"
+        wait: yes
+        name: "{{ ami }}"
+        state: present
