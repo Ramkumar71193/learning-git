@@ -1,12 +1,6 @@
----
-- name: creating ec2_ami
-  vars:
-    ec2_instance_id: i-054fcfa2e530a558a
-    region: us-east-2
-  tasks:
-  ec2_ami:
-    instance_id: "{{ ec2_instance_id }}"
-    region: "{{ region }}"
+# Basic AMI Creation
+- ec2_ami:
+    instance_id: i-xxxxxx
     wait: yes
     name: newtest
     tags:
