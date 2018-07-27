@@ -1,0 +1,7 @@
+# Basic AMI Creation
+- local_action:
+    module: ec2_ami
+    instance_id: i-085df31cfa8465e46
+    wait: yes
+    name: newtest
+  register: instance
