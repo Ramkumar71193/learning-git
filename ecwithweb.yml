@@ -23,9 +23,7 @@
 
     - name: Add the newly created EC2 instance(s) to the local host group (located inside the directory)
       local_action: lineinfile
-        dest="./hosts"
+        dest="/etc/ansible"
         regexp={{ item.public_ip }}
         insertafter="[webservers]" line={{ item.public_ip }}
       with_items: ec2.instances
-
-    
