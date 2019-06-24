@@ -1,0 +1,975 @@
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting six
+  Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Installing collected packages: six
+  Found existing installation: six 1.4.1
+ERROR: Cannot uninstall 'six'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
+rkumar:learning-git rkumar$ sudo pip install six --upgrade
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting six
+  Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Installing collected packages: six
+  Found existing installation: six 1.4.1
+ERROR: Cannot uninstall 'six'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$ sudo pip unistall six
+ERROR: unknown command "unistall" - maybe you meant "uninstall"
+rkumar:learning-git rkumar$ sudo pip uninstall six
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+ERROR: Cannot uninstall 'six'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
+rkumar:learning-git rkumar$ pip list
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+Package                                Version
+-------------------------------------- --------
+altgraph                               0.10.2
+ansible                                2.8.1
+asn1crypto                             0.24.0
+backports-abc                          0.5
+bdist-mpkg                             0.5.0
+bonjour-py                             0.3
+cffi                                   1.12.3
+cryptography                           2.7
+docutils                               0.14
+enum34                                 1.1.6
+futures                                3.2.0
+ipaddress                              1.0.22
+Jinja2                                 2.10.1
+jmespath                               0.9.4
+macholib                               1.5.1
+MarkupSafe                             1.1.1
+matplotlib                             1.3.1
+modulegraph                            0.10.4
+nose                                   1.3.7
+numpy                                  1.8.0rc1
+pip                                    19.1.1
+py2app                                 0.7.3
+pycparser                              2.19
+pyobjc-core                            2.5.1
+pyobjc-framework-Accounts              2.5.1
+pyobjc-framework-AddressBook           2.5.1
+pyobjc-framework-AppleScriptKit        2.5.1
+pyobjc-framework-AppleScriptObjC       2.5.1
+pyobjc-framework-Automator             2.5.1
+pyobjc-framework-CFNetwork             2.5.1
+pyobjc-framework-Cocoa                 2.5.1
+pyobjc-framework-Collaboration         2.5.1
+pyobjc-framework-CoreData              2.5.1
+pyobjc-framework-CoreLocation          2.5.1
+pyobjc-framework-CoreText              2.5.1
+pyobjc-framework-DictionaryServices    2.5.1
+pyobjc-framework-EventKit              2.5.1
+pyobjc-framework-ExceptionHandling     2.5.1
+pyobjc-framework-FSEvents              2.5.1
+pyobjc-framework-InputMethodKit        2.5.1
+pyobjc-framework-InstallerPlugins      2.5.1
+pyobjc-framework-InstantMessage        2.5.1
+pyobjc-framework-LatentSemanticMapping 2.5.1
+pyobjc-framework-LaunchServices        2.5.1
+pyobjc-framework-Message               2.5.1
+pyobjc-framework-OpenDirectory         2.5.1
+pyobjc-framework-PreferencePanes       2.5.1
+pyobjc-framework-PubSub                2.5.1
+pyobjc-framework-QTKit                 2.5.1
+pyobjc-framework-Quartz                2.5.1
+pyobjc-framework-ScreenSaver           2.5.1
+pyobjc-framework-ScriptingBridge       2.5.1
+pyobjc-framework-SearchKit             2.5.1
+pyobjc-framework-ServiceManagement     2.5.1
+pyobjc-framework-Social                2.5.1
+pyobjc-framework-SyncServices          2.5.1
+pyobjc-framework-SystemConfiguration   2.5.1
+pyobjc-framework-WebKit                2.5.1
+pyOpenSSL                              0.13.1
+pyparsing                              2.0.1
+python-dateutil                        1.5
+pytz                                   2013.7
+PyYAML                                 5.1.1
+scipy                                  0.13.0b1
+setuptools                             18.5
+singledispatch                         3.4.0.3
+six                                    1.4.1
+tornado                                5.1.1
+urllib3                                1.25.3
+vboxapi                                1.0
+wheel                                  0.33.4
+xattr                                  0.6.4
+zope.interface                         4.1.1
+rkumar:learning-git rkumar$ pip list | grep -i six
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+six                                    1.4.1
+rkumar:learning-git rkumar$ sudo pip uninstall six=1.4.1
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+ERROR: Invalid requirement: 'six=1.4.1'
+= is not a valid operator. Did you mean == ?
+rkumar:learning-git rkumar$ sudo pip install boto3
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting boto3
+  Downloading https://files.pythonhosted.org/packages/a6/1f/b272ead5ccc5370717f3c65ebd5092feab90e748db041bd96c565e7d1a72/boto3-1.9.169-py2.py3-none-any.whl (128kB)
+     |████████████████████████████████| 133kB 108kB/s
+Collecting botocore<1.13.0,>=1.12.169 (from boto3)
+  Downloading https://files.pythonhosted.org/packages/28/ac/a43d37f371f5854514128d7c54887176b8df3bc9925a25e5096298033f93/botocore-1.12.169-py2.py3-none-any.whl (5.5MB)
+     |████████████████████████████████| 5.6MB 506kB/s
+Requirement already satisfied: jmespath<1.0.0,>=0.7.1 in /Library/Python/2.7/site-packages (from boto3) (0.9.4)
+Collecting s3transfer<0.3.0,>=0.2.0 (from boto3)
+  Downloading https://files.pythonhosted.org/packages/16/8a/1fc3dba0c4923c2a76e1ff0d52b305c44606da63f718d14d3231e21c51b0/s3transfer-0.2.1-py2.py3-none-any.whl (70kB)
+     |████████████████████████████████| 71kB 5.9MB/s
+Requirement already satisfied: docutils>=0.10 in /Library/Python/2.7/site-packages (from botocore<1.13.0,>=1.12.169->boto3) (0.14)
+Requirement already satisfied: urllib3<1.26,>=1.20; python_version == "2.7" in /Library/Python/2.7/site-packages (from botocore<1.13.0,>=1.12.169->boto3) (1.25.3)
+Collecting python-dateutil<3.0.0,>=2.1; python_version >= "2.7" (from botocore<1.13.0,>=1.12.169->boto3)
+  Downloading https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226kB)
+     |████████████████████████████████| 235kB 5.4MB/s
+Requirement already satisfied: futures<4.0.0,>=2.2.0; python_version == "2.6" or python_version == "2.7" in /Library/Python/2.7/site-packages (from s3transfer<0.3.0,>=0.2.0->boto3) (3.2.0)
+Collecting six>=1.5 (from python-dateutil<3.0.0,>=2.1; python_version >= "2.7"->botocore<1.13.0,>=1.12.169->boto3)
+  Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Installing collected packages: six, python-dateutil, botocore, s3transfer, boto3
+  Found existing installation: six 1.4.1
+ERROR: Cannot uninstall 'six'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
+rkumar:learning-git rkumar$ sudo pip uninstall six --force
+
+Usage:
+  pip uninstall [options] <package> ...
+  pip uninstall [options] -r <requirements file> ...
+
+no such option: --force
+rkumar:learning-git rkumar$ sudo pip uninstall -r six
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'six'
+rkumar:learning-git rkumar$ sudo pip
+
+Usage:
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to WARNING, ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --proxy <proxy>             Specify a proxy in the form [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host as trusted, even though it does not have valid or any HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file containing the private key and the certificate in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine whether a new version of pip is available for download. Implied with --no-index.
+  --no-color                  Suppress colored output
+rkumar:learning-git rkumar$ sudo pip  uninstall
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+ERROR: You must give at least one requirement to uninstall (see "pip help uninstall")
+rkumar:learning-git rkumar$ sudo pip  uninstall --help
+
+Usage:
+  pip uninstall [options] <package> ...
+  pip uninstall [options] -r <requirements file> ...
+
+Description:
+  Uninstall packages.
+
+  pip is able to uninstall most installed packages. Known exceptions are:
+
+  - Pure distutils packages installed with ``python setup.py install``, which
+    leave behind no metadata to determine what files were installed.
+  - Script wrappers installed by ``python setup.py develop``.
+
+Uninstall Options:
+  -r, --requirement <file>    Uninstall all the packages listed in the given requirements file.  This option can be used multiple times.
+  -y, --yes                   Don't ask for confirmation of uninstall deletions.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to WARNING, ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --proxy <proxy>             Specify a proxy in the form [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host as trusted, even though it does not have valid or any HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file containing the private key and the certificate in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine whether a new version of pip is available for download. Implied with --no-index.
+  --no-color                  Suppress colored output
+rkumar:learning-git rkumar$ sudo pip  uninstall six
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+ERROR: Cannot uninstall 'six'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.
+rkumar:learning-git rkumar$ pip install --ignore-installed six
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+Collecting six
+c^CERROR: Operation cancelled by user
+rkumar:learning-git rkumar$ sudo pip install --ignore-installed six
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting six
+  Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Installing collected packages: six
+Successfully installed six-1.12.0
+rkumar:learning-git rkumar$ sudo pip list | grep -i six
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+six                                    1.12.0
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$ clear
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$ sudo pip install boto3
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting boto3
+  Downloading https://files.pythonhosted.org/packages/a6/1f/b272ead5ccc5370717f3c65ebd5092feab90e748db041bd96c565e7d1a72/boto3-1.9.169-py2.py3-none-any.whl (128kB)
+     |████████████████████████████████| 133kB 112kB/s
+Collecting botocore<1.13.0,>=1.12.169 (from boto3)
+  Downloading https://files.pythonhosted.org/packages/28/ac/a43d37f371f5854514128d7c54887176b8df3bc9925a25e5096298033f93/botocore-1.12.169-py2.py3-none-any.whl (5.5MB)
+     |████████████████████████████████| 5.6MB 2.3MB/s
+Requirement already satisfied: jmespath<1.0.0,>=0.7.1 in /Library/Python/2.7/site-packages (from boto3) (0.9.4)
+Collecting s3transfer<0.3.0,>=0.2.0 (from boto3)
+  Downloading https://files.pythonhosted.org/packages/16/8a/1fc3dba0c4923c2a76e1ff0d52b305c44606da63f718d14d3231e21c51b0/s3transfer-0.2.1-py2.py3-none-any.whl (70kB)
+     |████████████████████████████████| 71kB 5.9MB/s
+Requirement already satisfied: docutils>=0.10 in /Library/Python/2.7/site-packages (from botocore<1.13.0,>=1.12.169->boto3) (0.14)
+Requirement already satisfied: urllib3<1.26,>=1.20; python_version == "2.7" in /Library/Python/2.7/site-packages (from botocore<1.13.0,>=1.12.169->boto3) (1.25.3)
+Collecting python-dateutil<3.0.0,>=2.1; python_version >= "2.7" (from botocore<1.13.0,>=1.12.169->boto3)
+  Downloading https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226kB)
+     |████████████████████████████████| 235kB 5.5MB/s
+Requirement already satisfied: futures<4.0.0,>=2.2.0; python_version == "2.6" or python_version == "2.7" in /Library/Python/2.7/site-packages (from s3transfer<0.3.0,>=0.2.0->boto3) (3.2.0)
+Requirement already satisfied: six>=1.5 in /Library/Python/2.7/site-packages (from python-dateutil<3.0.0,>=2.1; python_version >= "2.7"->botocore<1.13.0,>=1.12.169->boto3) (1.12.0)
+Installing collected packages: python-dateutil, botocore, s3transfer, boto3
+  Found existing installation: python-dateutil 1.5
+    Uninstalling python-dateutil-1.5:
+ERROR: Could not install packages due to an EnvironmentError: [('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/__init__.py', '/private/tmp/pip-uninstall-iEz_jx/__init__.py', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/__init__.py'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/__init__.pyc', '/private/tmp/pip-uninstall-iEz_jx/__init__.pyc', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/__init__.pyc'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/easter.py', '/private/tmp/pip-uninstall-iEz_jx/easter.py', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/easter.py'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/easter.pyc', '/private/tmp/pip-uninstall-iEz_jx/easter.pyc', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/easter.pyc'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/parser.py', '/private/tmp/pip-uninstall-iEz_jx/parser.py', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/parser.py'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/parser.pyc', '/private/tmp/pip-uninstall-iEz_jx/parser.pyc', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/parser.pyc'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/relativedelta.py', '/private/tmp/pip-uninstall-iEz_jx/relativedelta.py', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/relativedelta.py'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/relativedelta.pyc', '/private/tmp/pip-uninstall-iEz_jx/relativedelta.pyc', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/relativedelta.pyc'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/rrule.py', '/private/tmp/pip-uninstall-iEz_jx/rrule.py', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/rrule.py'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/rrule.pyc', '/private/tmp/pip-uninstall-iEz_jx/rrule.pyc', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/rrule.pyc'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/tz.py', '/private/tmp/pip-uninstall-iEz_jx/tz.py', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/tz.py'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/tz.pyc', '/private/tmp/pip-uninstall-iEz_jx/tz.pyc', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/tz.pyc'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/tzwin.py', '/private/tmp/pip-uninstall-iEz_jx/tzwin.py', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/tzwin.py'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/tzwin.pyc', '/private/tmp/pip-uninstall-iEz_jx/tzwin.pyc', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/tzwin.pyc'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/zoneinfo/__init__.py', '/private/tmp/pip-uninstall-iEz_jx/zoneinfo/__init__.py', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/zoneinfo/__init__.py'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/zoneinfo/__init__.pyc', '/private/tmp/pip-uninstall-iEz_jx/zoneinfo/__init__.pyc', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/zoneinfo/__init__.pyc'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/zoneinfo/zoneinfo-2010g.tar.gz', '/private/tmp/pip-uninstall-iEz_jx/zoneinfo/zoneinfo-2010g.tar.gz', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/zoneinfo/zoneinfo-2010g.tar.gz'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil/zoneinfo', '/private/tmp/pip-uninstall-iEz_jx/zoneinfo', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx/zoneinfo'"), ('/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/dateutil', '/private/tmp/pip-uninstall-iEz_jx', "[Errno 1] Operation not permitted: '/private/tmp/pip-uninstall-iEz_jx'")]
+
+rkumar:learning-git rkumar$ pip
+
+
+
+Usage:
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to WARNING, ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --proxy <proxy>             Specify a proxy in the form [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host as trusted, even though it does not have valid or any HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file containing the private key and the certificate in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine whether a new version of pip is available for download. Implied with --no-index.
+  --no-color                  Suppress colored output
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$ pip list | grep -i python-dateutil-1.5
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+rkumar:learning-git rkumar$ pip list | grep -i python-
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+python-dateutil                        1.5
+rkumar:learning-git rkumar$ sudo pip install --ignore-installed python-dateutil
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting python-dateutil
+  Downloading https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226kB)
+     |████████████████████████████████| 235kB 110kB/s
+Collecting six>=1.5 (from python-dateutil)
+  Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Installing collected packages: six, python-dateutil
+Successfully installed python-dateutil-2.8.0 six-1.12.0
+rkumar:learning-git rkumar$ sudo pip install boto3
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting boto3
+  Downloading https://files.pythonhosted.org/packages/a6/1f/b272ead5ccc5370717f3c65ebd5092feab90e748db041bd96c565e7d1a72/boto3-1.9.169-py2.py3-none-any.whl (128kB)
+     |████████████████████████████████| 133kB 93kB/s
+Collecting botocore<1.13.0,>=1.12.169 (from boto3)
+  Downloading https://files.pythonhosted.org/packages/28/ac/a43d37f371f5854514128d7c54887176b8df3bc9925a25e5096298033f93/botocore-1.12.169-py2.py3-none-any.whl (5.5MB)
+     |████████████████████████████████| 5.6MB 1.5MB/s
+Requirement already satisfied: jmespath<1.0.0,>=0.7.1 in /Library/Python/2.7/site-packages (from boto3) (0.9.4)
+Collecting s3transfer<0.3.0,>=0.2.0 (from boto3)
+  Downloading https://files.pythonhosted.org/packages/16/8a/1fc3dba0c4923c2a76e1ff0d52b305c44606da63f718d14d3231e21c51b0/s3transfer-0.2.1-py2.py3-none-any.whl (70kB)
+     |████████████████████████████████| 71kB 5.9MB/s
+Requirement already satisfied: docutils>=0.10 in /Library/Python/2.7/site-packages (from botocore<1.13.0,>=1.12.169->boto3) (0.14)
+Requirement already satisfied: urllib3<1.26,>=1.20; python_version == "2.7" in /Library/Python/2.7/site-packages (from botocore<1.13.0,>=1.12.169->boto3) (1.25.3)
+Requirement already satisfied: python-dateutil<3.0.0,>=2.1; python_version >= "2.7" in /Library/Python/2.7/site-packages (from botocore<1.13.0,>=1.12.169->boto3) (2.8.0)
+Requirement already satisfied: futures<4.0.0,>=2.2.0; python_version == "2.6" or python_version == "2.7" in /Library/Python/2.7/site-packages (from s3transfer<0.3.0,>=0.2.0->boto3) (3.2.0)
+Requirement already satisfied: six>=1.5 in /Library/Python/2.7/site-packages (from python-dateutil<3.0.0,>=2.1; python_version >= "2.7"->botocore<1.13.0,>=1.12.169->boto3) (1.12.0)
+Installing collected packages: botocore, s3transfer, boto3
+Successfully installed boto3-1.9.169 botocore-1.12.169 s3transfer-0.2.1
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$ ansible-playbook EC2working.yml --extra-vars "security_group=sg-0205442a3db879216 image=ami-0d4a5bfbc14e57eaf subnet_id=subnet-01d5d569"
+ [WARNING]: No inventory was parsed, only implicit localhost is available
+
+ [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+
+PLAY [Create a ec2 instance] *******************************************************************************************************************************************************************************
+
+TASK [Launch instance] *************************************************************************************************************************************************************************************
+fatal: [localhost]: FAILED! => {"changed": false, "msg": "boto required for this module"}
+
+PLAY RECAP *************************************************************************************************************************************************************************************************
+localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
+
+rkumar:learning-git rkumar$ ansible-playbook EC2working.yml --extra-vars "security_group=sg-0205442a3db879216 image=ami-0d4a5bfbc14e57eaf subnet_id=subnet-01d5d569" -vvv
+ansible-playbook 2.8.1
+  config file = None
+  configured module search path = [u'/Users/rkumar/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /Library/Python/2.7/site-packages/ansible
+  executable location = /usr/local/bin/ansible-playbook
+  python version = 2.7.10 (default, Feb  7 2017, 00:08:15) [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)]
+No config file found; using defaults
+host_list declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+script declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+auto declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+yaml declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+ini declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+toml declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+ [WARNING]: No inventory was parsed, only implicit localhost is available
+
+ [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+
+PLAYBOOK: EC2working.yml ***********************************************************************************************************************************************************************************
+1 plays in EC2working.yml
+
+PLAY [Create a ec2 instance] *******************************************************************************************************************************************************************************
+META: ran handlers
+
+TASK [Launch instance] *************************************************************************************************************************************************************************************
+task path: /Users/rkumar/learning-git/EC2working.yml:10
+<127.0.0.1> ESTABLISH LOCAL CONNECTION FOR USER: rkumar
+<127.0.0.1> EXEC /bin/sh -c 'echo ~rkumar && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c '( umask 77 && mkdir -p "` echo /Users/rkumar/.ansible/tmp/ansible-tmp-1560668778.92-43320496486714 `" && echo ansible-tmp-1560668778.92-43320496486714="` echo /Users/rkumar/.ansible/tmp/ansible-tmp-1560668778.92-43320496486714 `" ) && sleep 0'
+Using module file /Library/Python/2.7/site-packages/ansible/modules/cloud/amazon/ec2.py
+<127.0.0.1> PUT /Users/rkumar/.ansible/tmp/ansible-local-78746ldHvyk/tmp_ztozs TO /Users/rkumar/.ansible/tmp/ansible-tmp-1560668778.92-43320496486714/AnsiballZ_ec2.py
+<127.0.0.1> EXEC /bin/sh -c 'chmod u+x /Users/rkumar/.ansible/tmp/ansible-tmp-1560668778.92-43320496486714/ /Users/rkumar/.ansible/tmp/ansible-tmp-1560668778.92-43320496486714/AnsiballZ_ec2.py && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c '/usr/bin/python /Users/rkumar/.ansible/tmp/ansible-tmp-1560668778.92-43320496486714/AnsiballZ_ec2.py && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c 'rm -f -r /Users/rkumar/.ansible/tmp/ansible-tmp-1560668778.92-43320496486714/ > /dev/null 2>&1 && sleep 0'
+The full traceback is:
+WARNING: The below traceback may *not* be related to the actual failure.
+  File "/var/folders/qt/_zkg647536s8pjcdrs5gbvx8z9by9w/T/ansible_ec2_payload_YVO9Bf/__main__.py", line 581, in <module>
+    import boto.ec2
+
+fatal: [localhost]: FAILED! => {
+    "changed": false,
+    "invocation": {
+        "module_args": {
+            "assign_public_ip": true,
+            "aws_access_key": null,
+            "aws_secret_key": null,
+            "count": 1,
+            "count_tag": null,
+            "debug_botocore_endpoint_logs": false,
+            "ebs_optimized": false,
+            "ec2_url": null,
+            "exact_count": null,
+            "group": [
+                "sg-0205442a3db879216"
+            ],
+            "group_id": null,
+            "id": null,
+            "image": "ami-0d4a5bfbc14e57eaf",
+            "instance_ids": null,
+            "instance_initiated_shutdown_behavior": "stop",
+            "instance_profile_name": null,
+            "instance_tags": null,
+            "instance_type": "t2.micro",
+            "kernel": null,
+            "key_name": "useast",
+            "monitoring": false,
+            "network_interfaces": null,
+            "placement_group": null,
+            "private_ip": null,
+            "profile": null,
+            "ramdisk": null,
+            "region": "us-east-2",
+            "security_token": null,
+            "source_dest_check": null,
+            "spot_launch_group": null,
+            "spot_price": null,
+            "spot_type": "one-time",
+            "spot_wait_timeout": 600,
+            "state": "present",
+            "tenancy": "default",
+            "termination_protection": null,
+            "user_data": null,
+            "validate_certs": true,
+            "volumes": null,
+            "vpc_subnet_id": "subnet-01d5d569",
+            "wait": true,
+            "wait_timeout": 300,
+            "zone": null
+        }
+    },
+    "msg": "boto required for this module"
+}
+
+PLAY RECAP *************************************************************************************************************************************************************************************************
+localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
+
+rkumar:learning-git rkumar$ ls
+EC2working.yml		ami.yml			cmp			ecwithweb.yml		hello			ram			test.yml
+ELB.yml			ami2.yml		continueofws.ymls	fianlec2.yml		newcodehhtpd.yml	sephtpd			webserver
+README.md		basicami.yml		ec2withweb.yml		git			rak			sepweb.yml		webserver.yml
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$ cat EC2working.yml
+- name: Create a ec2 instance
+  hosts: localhost
+  gather_facts: False
+  vars:
+    key_name: useast
+    instance_type: t2.micro
+    region: us-east-2
+
+  tasks:
+    - name: Launch instance
+      ec2:
+         key_name: "{{ key_name }}"
+         group: "{{ security_group }}"
+         instance_type: "{{ instance_type }}"
+         image: "{{ image }}"
+         wait: true
+         region: "{{ region }}"
+         vpc_subnet_id: "{{ subnet_id }}"
+         assign_public_ip: yes
+      register: ec2
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$
+rkumar:learning-git rkumar$ export AWS_ACCESS_KEY=
+rkumar:learning-git rkumar$ cat ../.aws/credentials
+[default]
+aws_access_key_id = AKIAIGT6TY7EB3WHQOBQ
+aws_secret_access_key = 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
+rkumar:learning-git rkumar$ export AWS_ACCESS_KEY=AKIAIGT6TY7EB3WHQOBQ
+rkumar:learning-git rkumar$ export AWS_SECRET_KEY=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
+rkumar:learning-git rkumar$ ansible-playbook EC2working.yml --extra-vars "security_group=sg-0205442a3db879216 image=ami-0d4a5bfbc14e57eaf subnet_id=subnet-01d5d569" -vvv
+ansible-playbook 2.8.1
+  config file = None
+  configured module search path = [u'/Users/rkumar/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /Library/Python/2.7/site-packages/ansible
+  executable location = /usr/local/bin/ansible-playbook
+  python version = 2.7.10 (default, Feb  7 2017, 00:08:15) [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)]
+No config file found; using defaults
+host_list declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+script declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+auto declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+yaml declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+ini declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+toml declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+ [WARNING]: No inventory was parsed, only implicit localhost is available
+
+ [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+
+PLAYBOOK: EC2working.yml ***********************************************************************************************************************************************************************************
+1 plays in EC2working.yml
+
+PLAY [Create a ec2 instance] *******************************************************************************************************************************************************************************
+META: ran handlers
+
+TASK [Launch instance] *************************************************************************************************************************************************************************************
+task path: /Users/rkumar/learning-git/EC2working.yml:10
+<127.0.0.1> ESTABLISH LOCAL CONNECTION FOR USER: rkumar
+<127.0.0.1> EXEC /bin/sh -c 'echo ~rkumar && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c '( umask 77 && mkdir -p "` echo /Users/rkumar/.ansible/tmp/ansible-tmp-1560668963.2-280714343736857 `" && echo ansible-tmp-1560668963.2-280714343736857="` echo /Users/rkumar/.ansible/tmp/ansible-tmp-1560668963.2-280714343736857 `" ) && sleep 0'
+Using module file /Library/Python/2.7/site-packages/ansible/modules/cloud/amazon/ec2.py
+<127.0.0.1> PUT /Users/rkumar/.ansible/tmp/ansible-local-78780e6Iy1j/tmpx07q4E TO /Users/rkumar/.ansible/tmp/ansible-tmp-1560668963.2-280714343736857/AnsiballZ_ec2.py
+<127.0.0.1> EXEC /bin/sh -c 'chmod u+x /Users/rkumar/.ansible/tmp/ansible-tmp-1560668963.2-280714343736857/ /Users/rkumar/.ansible/tmp/ansible-tmp-1560668963.2-280714343736857/AnsiballZ_ec2.py && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c '/usr/bin/python /Users/rkumar/.ansible/tmp/ansible-tmp-1560668963.2-280714343736857/AnsiballZ_ec2.py && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c 'rm -f -r /Users/rkumar/.ansible/tmp/ansible-tmp-1560668963.2-280714343736857/ > /dev/null 2>&1 && sleep 0'
+The full traceback is:
+WARNING: The below traceback may *not* be related to the actual failure.
+  File "/var/folders/qt/_zkg647536s8pjcdrs5gbvx8z9by9w/T/ansible_ec2_payload_xx6WW_/__main__.py", line 581, in <module>
+    import boto.ec2
+
+fatal: [localhost]: FAILED! => {
+    "changed": false,
+    "invocation": {
+        "module_args": {
+            "assign_public_ip": true,
+            "aws_access_key": null,
+            "aws_secret_key": null,
+            "count": 1,
+            "count_tag": null,
+            "debug_botocore_endpoint_logs": false,
+            "ebs_optimized": false,
+            "ec2_url": null,
+            "exact_count": null,
+            "group": [
+                "sg-0205442a3db879216"
+            ],
+            "group_id": null,
+            "id": null,
+            "image": "ami-0d4a5bfbc14e57eaf",
+            "instance_ids": null,
+            "instance_initiated_shutdown_behavior": "stop",
+            "instance_profile_name": null,
+            "instance_tags": null,
+            "instance_type": "t2.micro",
+            "kernel": null,
+            "key_name": "useast",
+            "monitoring": false,
+            "network_interfaces": null,
+            "placement_group": null,
+            "private_ip": null,
+            "profile": null,
+            "ramdisk": null,
+            "region": "us-east-2",
+            "security_token": null,
+            "source_dest_check": null,
+            "spot_launch_group": null,
+            "spot_price": null,
+            "spot_type": "one-time",
+            "spot_wait_timeout": 600,
+            "state": "present",
+            "tenancy": "default",
+            "termination_protection": null,
+            "user_data": null,
+            "validate_certs": true,
+            "volumes": null,
+            "vpc_subnet_id": "subnet-01d5d569",
+            "wait": true,
+            "wait_timeout": 300,
+            "zone": null
+        }
+    },
+    "msg": "boto required for this module"
+}
+
+PLAY RECAP *************************************************************************************************************************************************************************************************
+localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
+
+rkumar:learning-git rkumar$ sudo pip install boto
+Password:
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+WARNING: The directory '/Users/rkumar/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting boto
+  Downloading https://files.pythonhosted.org/packages/23/10/c0b78c27298029e4454a472a1919bde20cb182dab1662cec7f2ca1dcc523/boto-2.49.0-py2.py3-none-any.whl (1.4MB)
+     |████████████████████████████████| 1.4MB 1.5MB/s
+Installing collected packages: boto
+Successfully installed boto-2.49.0
+rkumar:learning-git rkumar$ ansible-playbook EC2working.yml --extra-vars "security_group=sg-0205442a3db879216 image=ami-0d4a5bfbc14e57eaf subnet_id=subnet-01d5d569" -vvv
+ansible-playbook 2.8.1
+  config file = None
+  configured module search path = [u'/Users/rkumar/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /Library/Python/2.7/site-packages/ansible
+  executable location = /usr/local/bin/ansible-playbook
+  python version = 2.7.10 (default, Feb  7 2017, 00:08:15) [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)]
+No config file found; using defaults
+host_list declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+script declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+auto declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+yaml declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+ini declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+toml declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+ [WARNING]: No inventory was parsed, only implicit localhost is available
+
+ [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+
+PLAYBOOK: EC2working.yml ***********************************************************************************************************************************************************************************
+1 plays in EC2working.yml
+
+PLAY [Create a ec2 instance] *******************************************************************************************************************************************************************************
+META: ran handlers
+
+TASK [Launch instance] *************************************************************************************************************************************************************************************
+task path: /Users/rkumar/learning-git/EC2working.yml:10
+<127.0.0.1> ESTABLISH LOCAL CONNECTION FOR USER: rkumar
+<127.0.0.1> EXEC /bin/sh -c 'echo ~rkumar && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c '( umask 77 && mkdir -p "` echo /Users/rkumar/.ansible/tmp/ansible-tmp-1560669075.93-127158261464968 `" && echo ansible-tmp-1560669075.93-127158261464968="` echo /Users/rkumar/.ansible/tmp/ansible-tmp-1560669075.93-127158261464968 `" ) && sleep 0'
+Using module file /Library/Python/2.7/site-packages/ansible/modules/cloud/amazon/ec2.py
+<127.0.0.1> PUT /Users/rkumar/.ansible/tmp/ansible-local-78828I9vwQe/tmpQlXfdH TO /Users/rkumar/.ansible/tmp/ansible-tmp-1560669075.93-127158261464968/AnsiballZ_ec2.py
+<127.0.0.1> EXEC /bin/sh -c 'chmod u+x /Users/rkumar/.ansible/tmp/ansible-tmp-1560669075.93-127158261464968/ /Users/rkumar/.ansible/tmp/ansible-tmp-1560669075.93-127158261464968/AnsiballZ_ec2.py && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c '/usr/bin/python /Users/rkumar/.ansible/tmp/ansible-tmp-1560669075.93-127158261464968/AnsiballZ_ec2.py && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c 'rm -f -r /Users/rkumar/.ansible/tmp/ansible-tmp-1560669075.93-127158261464968/ > /dev/null 2>&1 && sleep 0'
+fatal: [localhost]: FAILED! => {
+    "changed": false,
+    "invocation": {
+        "module_args": {
+            "assign_public_ip": true,
+            "aws_access_key": null,
+            "aws_secret_key": null,
+            "count": 1,
+            "count_tag": null,
+            "debug_botocore_endpoint_logs": false,
+            "ebs_optimized": false,
+            "ec2_url": null,
+            "exact_count": null,
+            "group": [
+                "sg-0205442a3db879216"
+            ],
+            "group_id": null,
+            "id": null,
+            "image": "ami-0d4a5bfbc14e57eaf",
+            "instance_ids": null,
+            "instance_initiated_shutdown_behavior": "stop",
+            "instance_profile_name": null,
+            "instance_tags": null,
+            "instance_type": "t2.micro",
+            "kernel": null,
+            "key_name": "useast",
+            "monitoring": false,
+            "network_interfaces": null,
+            "placement_group": null,
+            "private_ip": null,
+            "profile": null,
+            "ramdisk": null,
+            "region": "us-east-2",
+            "security_token": null,
+            "source_dest_check": null,
+            "spot_launch_group": null,
+            "spot_price": null,
+            "spot_type": "one-time",
+            "spot_wait_timeout": 600,
+            "state": "present",
+            "tenancy": "default",
+            "termination_protection": null,
+            "user_data": null,
+            "validate_certs": true,
+            "volumes": null,
+            "vpc_subnet_id": "subnet-01d5d569",
+            "wait": true,
+            "wait_timeout": 300,
+            "zone": null
+        }
+    },
+    "msg": "The following group names are not valid: sg-0205442a3db879216"
+}
+
+PLAY RECAP *************************************************************************************************************************************************************************************************
+localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
+
+rkumar:learning-git rkumar$ ansible-playbook EC2working.yml --extra-vars "security_group=launch-wizard-1 image=ami-0d4a5bfbc14e57eaf subnet_id=subnet-01d5d569" -vvv
+ansible-playbook 2.8.1
+  config file = None
+  configured module search path = [u'/Users/rkumar/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /Library/Python/2.7/site-packages/ansible
+  executable location = /usr/local/bin/ansible-playbook
+  python version = 2.7.10 (default, Feb  7 2017, 00:08:15) [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)]
+No config file found; using defaults
+host_list declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+script declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+auto declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+yaml declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+ini declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+toml declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+ [WARNING]: No inventory was parsed, only implicit localhost is available
+
+ [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+
+PLAYBOOK: EC2working.yml ***********************************************************************************************************************************************************************************
+1 plays in EC2working.yml
+
+PLAY [Create a ec2 instance] *******************************************************************************************************************************************************************************
+META: ran handlers
+
+TASK [Launch instance] *************************************************************************************************************************************************************************************
+task path: /Users/rkumar/learning-git/EC2working.yml:10
+<127.0.0.1> ESTABLISH LOCAL CONNECTION FOR USER: rkumar
+<127.0.0.1> EXEC /bin/sh -c 'echo ~rkumar && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c '( umask 77 && mkdir -p "` echo /Users/rkumar/.ansible/tmp/ansible-tmp-1560669126.04-14885884748996 `" && echo ansible-tmp-1560669126.04-14885884748996="` echo /Users/rkumar/.ansible/tmp/ansible-tmp-1560669126.04-14885884748996 `" ) && sleep 0'
+Using module file /Library/Python/2.7/site-packages/ansible/modules/cloud/amazon/ec2.py
+<127.0.0.1> PUT /Users/rkumar/.ansible/tmp/ansible-local-78858Pov1_i/tmpJwufwS TO /Users/rkumar/.ansible/tmp/ansible-tmp-1560669126.04-14885884748996/AnsiballZ_ec2.py
+<127.0.0.1> EXEC /bin/sh -c 'chmod u+x /Users/rkumar/.ansible/tmp/ansible-tmp-1560669126.04-14885884748996/ /Users/rkumar/.ansible/tmp/ansible-tmp-1560669126.04-14885884748996/AnsiballZ_ec2.py && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c '/usr/bin/python /Users/rkumar/.ansible/tmp/ansible-tmp-1560669126.04-14885884748996/AnsiballZ_ec2.py && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c 'rm -f -r /Users/rkumar/.ansible/tmp/ansible-tmp-1560669126.04-14885884748996/ > /dev/null 2>&1 && sleep 0'
+The full traceback is:
+WARNING: The below traceback may *not* be related to the actual failure.
+  File "/var/folders/qt/_zkg647536s8pjcdrs5gbvx8z9by9w/T/ansible_ec2_payload_grkEwQ/__main__.py", line 1168, in create_instances
+    res = ec2.run_instances(**params)
+  File "/Library/Python/2.7/site-packages/boto/ec2/connection.py", line 977, in run_instances
+    verb='POST')
+  File "/Library/Python/2.7/site-packages/boto/connection.py", line 1208, in get_object
+    raise self.ResponseError(response.status, response.reason, body)
+
+fatal: [localhost]: FAILED! => {
+    "changed": false,
+    "invocation": {
+        "module_args": {
+            "assign_public_ip": true,
+            "aws_access_key": null,
+            "aws_secret_key": null,
+            "count": 1,
+            "count_tag": null,
+            "debug_botocore_endpoint_logs": false,
+            "ebs_optimized": false,
+            "ec2_url": null,
+            "exact_count": null,
+            "group": [
+                "launch-wizard-1"
+            ],
+            "group_id": null,
+            "id": null,
+            "image": "ami-0d4a5bfbc14e57eaf",
+            "instance_ids": null,
+            "instance_initiated_shutdown_behavior": "stop",
+            "instance_profile_name": null,
+            "instance_tags": null,
+            "instance_type": "t2.micro",
+            "kernel": null,
+            "key_name": "useast",
+            "monitoring": false,
+            "network_interfaces": null,
+            "placement_group": null,
+            "private_ip": null,
+            "profile": null,
+            "ramdisk": null,
+            "region": "us-east-2",
+            "security_token": null,
+            "source_dest_check": null,
+            "spot_launch_group": null,
+            "spot_price": null,
+            "spot_type": "one-time",
+            "spot_wait_timeout": 600,
+            "state": "present",
+            "tenancy": "default",
+            "termination_protection": null,
+            "user_data": null,
+            "validate_certs": true,
+            "volumes": null,
+            "vpc_subnet_id": "subnet-01d5d569",
+            "wait": true,
+            "wait_timeout": 300,
+            "zone": null
+        }
+    },
+    "msg": "Instance creation failed => OptInRequired: In order to use this AWS Marketplace product you need to accept terms and subscribe. To do so please visit https://aws.amazon.com/marketplace/pp?sku=69uj2r76us65ie8q4oj62ws6f"
+}
+
+PLAY RECAP *************************************************************************************************************************************************************************************************
+localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
+
+rkumar:learning-git rkumar$ ansible-playbook EC2working.yml --extra-vars "security_group=launch-wizard-1 image=ami-05220ffa0e7fce3d1 subnet_id=subnet-01d5d569" -vvv
+ansible-playbook 2.8.1
+  config file = None
+  configured module search path = [u'/Users/rkumar/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /Library/Python/2.7/site-packages/ansible
+  executable location = /usr/local/bin/ansible-playbook
+  python version = 2.7.10 (default, Feb  7 2017, 00:08:15) [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)]
+No config file found; using defaults
+host_list declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+script declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+auto declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+yaml declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+ini declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+Skipping due to inventory source not existing or not being readable by the current user
+toml declined parsing /etc/ansible/hosts as it did not pass it's verify_file() method
+ [WARNING]: No inventory was parsed, only implicit localhost is available
+
+ [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+
+PLAYBOOK: EC2working.yml ***********************************************************************************************************************************************************************************
+1 plays in EC2working.yml
+
+PLAY [Create a ec2 instance] *******************************************************************************************************************************************************************************
+META: ran handlers
+
+TASK [Launch instance] *************************************************************************************************************************************************************************************
+task path: /Users/rkumar/learning-git/EC2working.yml:10
+<127.0.0.1> ESTABLISH LOCAL CONNECTION FOR USER: rkumar
+<127.0.0.1> EXEC /bin/sh -c 'echo ~rkumar && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c '( umask 77 && mkdir -p "` echo /Users/rkumar/.ansible/tmp/ansible-tmp-1560669173.03-60554370787028 `" && echo ansible-tmp-1560669173.03-60554370787028="` echo /Users/rkumar/.ansible/tmp/ansible-tmp-1560669173.03-60554370787028 `" ) && sleep 0'
+Using module file /Library/Python/2.7/site-packages/ansible/modules/cloud/amazon/ec2.py
+<127.0.0.1> PUT /Users/rkumar/.ansible/tmp/ansible-local-78885zD2miQ/tmpSemRhX TO /Users/rkumar/.ansible/tmp/ansible-tmp-1560669173.03-60554370787028/AnsiballZ_ec2.py
+<127.0.0.1> EXEC /bin/sh -c 'chmod u+x /Users/rkumar/.ansible/tmp/ansible-tmp-1560669173.03-60554370787028/ /Users/rkumar/.ansible/tmp/ansible-tmp-1560669173.03-60554370787028/AnsiballZ_ec2.py && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c '/usr/bin/python /Users/rkumar/.ansible/tmp/ansible-tmp-1560669173.03-60554370787028/AnsiballZ_ec2.py && sleep 0'
+<127.0.0.1> EXEC /bin/sh -c 'rm -f -r /Users/rkumar/.ansible/tmp/ansible-tmp-1560669173.03-60554370787028/ > /dev/null 2>&1 && sleep 0'
+changed: [localhost] => {
+    "changed": true,
+    "instance_ids": [
+        "i-075f4d0150f9575f4"
+    ],
+    "instances": [
+        {
+            "ami_launch_index": "0",
+            "architecture": "x86_64",
+            "block_device_mapping": {
+                "/dev/sda1": {
+                    "delete_on_termination": true,
+                    "status": "attached",
+                    "volume_id": "vol-0e082f3201823c43b"
+                }
+            },
+            "dns_name": "ec2-13-58-73-59.us-east-2.compute.amazonaws.com",
+            "ebs_optimized": false,
+            "groups": {
+                "sg-0205442a3db879216": "launch-wizard-1"
+            },
+            "hypervisor": "xen",
+            "id": "i-075f4d0150f9575f4",
+            "image_id": "ami-05220ffa0e7fce3d1",
+            "instance_type": "t2.micro",
+            "kernel": null,
+            "key_name": "useast",
+            "launch_time": "2019-06-16T07:12:56.000Z",
+            "placement": "us-east-2a",
+            "private_dns_name": "ip-172-31-10-3.us-east-2.compute.internal",
+            "private_ip": "172.31.10.3",
+            "public_dns_name": "ec2-13-58-73-59.us-east-2.compute.amazonaws.com",
+            "public_ip": "13.58.73.59",
+            "ramdisk": null,
+            "region": "us-east-2",
+            "root_device_name": "/dev/sda1",
+            "root_device_type": "ebs",
+            "state": "running",
+            "state_code": 16,
+            "tags": {},
+            "tenancy": "default",
+            "virtualization_type": "hvm"
+        }
+    ],
+    "invocation": {
+        "module_args": {
+            "assign_public_ip": true,
+            "aws_access_key": null,
+            "aws_secret_key": null,
+            "count": 1,
+            "count_tag": null,
+            "debug_botocore_endpoint_logs": false,
+            "ebs_optimized": false,
+            "ec2_url": null,
+            "exact_count": null,
+            "group": [
+                "launch-wizard-1"
+            ],
+            "group_id": null,
+            "id": null,
+            "image": "ami-05220ffa0e7fce3d1",
+            "instance_ids": null,
+            "instance_initiated_shutdown_behavior": "stop",
+            "instance_profile_name": null,
+            "instance_tags": null,
+            "instance_type": "t2.micro",
+            "kernel": null,
+            "key_name": "useast",
+            "monitoring": false,
+            "network_interfaces": null,
+            "placement_group": null,
+            "private_ip": null,
+            "profile": null,
+            "ramdisk": null,
+            "region": "us-east-2",
+            "security_token": null,
+            "source_dest_check": null,
+            "spot_launch_group": null,
+            "spot_price": null,
+            "spot_type": "one-time",
+            "spot_wait_timeout": 600,
+            "state": "present",
+            "tenancy": "default",
+            "termination_protection": null,
+            "user_data": null,
+            "validate_certs": true,
+            "volumes": null,
+            "vpc_subnet_id": "subnet-01d5d569",
+            "wait": true,
+            "wait_timeout": 300,
+            "zone": null
+        }
+    },
+    "tagged_instances": []
+}
+META: ran handlers
+META: ran handlers
+
+PLAY RECAP *************************************************************************************************************************************************************************************************
+localhost                  : ok=1    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+
+rkumar:learning-git rkumar$
